@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  color: rgb(2, 4, 145);
+}
+header {
+  background-color: rgb(138, 11, 211);
+  padding: 15px;
+}
+.head {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin-left: 20px;
+  color: azure;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: rgb(245, 244, 252);
+  text-decoration: none;
+  font-weight: bold;
+}
+#hero {
+  background-image: url(james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  height: 550px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+.hero-content {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+#services {
+  background-color: azure;
+  padding: 20px;
+  text-align: left;
+}
+#services ul {
+  list-style-type: square;
+  background-color: rgb(90, 37, 37);
+  color: chartreuse;
+  margin-left: 20px;
+}
+#services li {
+  margin-bottom: 10px;
+}
+#about {
+  background-color: rgb(75, 172, 75);
+  padding: 20px;
+  text-align: left;
+}
+#contact {
+  background-color: rgb(62, 8, 105);
+  color: aliceblue;
+  padding: 20px;
+  text-align: left;
+}
+footer {
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
